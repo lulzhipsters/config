@@ -1,9 +1,8 @@
-DOTFILES='config'
 REMOTE='https://github.com/lulzhipsters/config.git'
 
-git clone --bare $REMOTE $HOME/$DOTFILES
-# avoid using .gitignore so that child directories containing git repositories aren't interfered with
-echo '*' >> $HOME/$DOTFILES/info/exclude
+alias config='/usr/bin/git --git-dir=$HOME/.git --work-tree=$HOME'
 
-alias config='/usr/bin/git --git-dir=$HOME/$DOTFILES/ --work-tree=$HOME'
-config checkout
+config init
+echo '*' >> $HOME/.git/info/exclude
+config remote add "origin" $REMOTE
+config checkout main

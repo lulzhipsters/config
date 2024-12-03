@@ -10,3 +10,4 @@ alias config='/usr/bin/git --git-dir=$HOME/.git --work-tree=$HOME'
 
 git -C $HOME remote add origin $REMOTE
 git -C $HOME fetch origin
+git -C $HOME checkout main

@@ -6,6 +6,7 @@ BRANCH='main'
 git init $HOME --initial-branch $BRANCH
 echo '*' >> $HOME/.git/info/exclude
 
+#TODO: do this in pwsh instead, or both?
 alias config='/usr/bin/git --git-dir=$HOME/.git --work-tree=$HOME'
 
 git -C $HOME remote add origin $REMOTE

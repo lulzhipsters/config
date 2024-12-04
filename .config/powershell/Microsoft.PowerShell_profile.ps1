@@ -1,0 +1,1 @@
+oh-my-posh init pwsh --config '~/.oh-my-posh/pretty-in-pink.json' | Invoke-Expression

@@ -8,7 +8,8 @@
         {
           "properties": {
             "cache_duration": "none",
-            "style": "agnoster_short"
+            "style": "agnoster_short",
+            "folder_icon": "..."
           },
           "trailing_diamond": "\ue0b0",
           "template": " \ue5ff {{ .Path }} ",

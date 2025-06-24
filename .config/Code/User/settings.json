@@ -1,21 +1,22 @@
 {
     // Theme
-    "workbench.colorTheme": "Catppuccin Frappé",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "catppuccin-frappe",
 
     // Fonts
     // https://github.com/JetBrains/JetBrainsMono
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
-    "editor.fontSize": 16,
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.fontSize": 15,
     "editor.fontWeight": "400",
-    "editor.lineHeight": 1.4,
-    "editor.letterSpacing": 0.4,
-    "editor.fontLigatures": "'calt', 'zero', 'cv03', 'cv06', 'cv07', 'cv17', 'ss19'",
-    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "editor.lineHeight": 1.5,
+    "editor.letterSpacing": 0.3,
+    "editor.fontLigatures": "'calt', 'zero', 'ss19'",//, 'cv03', 'cv06', 'cv07', 'cv17', 'cv20', 'ss19'",
+    "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontWeight": "400",
     "terminal.integrated.lineHeight": 1,
 
     "gitlens.currentLine.fontWeight": "200",
     "gitlens.currentLine.fontStyle": "italic",
+    "window.menuBarVisibility": "compact",
 }

@@ -3,25 +3,25 @@
   "model": "anthropic/claude-opus-4-6",
   "agent": {
     "build": {
-      "model":  "anthropic/claude-opus-4-6"
+      "model":  "deepseek/deepseek-v4-pro"
     },
     "plan": {
-      "model": "anthropic/claude-opus-4-6"
+      "model": "deepseek/deepseek-v4-pro"
     },
     "general": {
-      "model": "anthropic/claude-haiku-4-5"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "explore": {
-      "model": "anthropic/claude-haiku-4-5"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "compaction": {
-      "model": "anthropic/claude-haiku-4-5"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "title": {
-      "model": "anthropic/claude-haiku-4-5"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "summary": {
-      "model": "anthropic/claude-haiku-4-5"
+      "model": "deepseek/deepseek-v4-flash"
     }
   }
 }

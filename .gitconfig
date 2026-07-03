@@ -2,3 +2,7 @@
 	autoSetupRemote = true
 [merge]
 	conflictstyle = zdiff3
+[core]
+	editor = code --wait
+[rebase]
+	updateRefs = true

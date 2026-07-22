@@ -84,7 +84,7 @@ defaults:
 
 keybindings: 
   prs:
-    - key: D
+    - key: O
       name: Review in tuicr
       command: "tuicr pr {{.PrNumber}}"
 

@@ -6,3 +6,5 @@
 	editor = code --wait
 [rebase]
 	updateRefs = true
+[worktree]
+	useRelativePaths = true

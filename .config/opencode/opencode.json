@@ -8,7 +8,7 @@
     "plan": {
       "model": "deepseek/deepseek-v4-pro"
     },
-    "qa": {
+    "QA": {
       "model": "deepseek/deepseek-v4-pro"
     },
     "general": {

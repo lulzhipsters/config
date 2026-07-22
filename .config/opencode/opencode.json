@@ -8,6 +8,9 @@
     "plan": {
       "model": "deepseek/deepseek-v4-pro"
     },
+    "qa": {
+      "model": "deepseek/deepseek-v4-pro"
+    },
     "general": {
       "model": "deepseek/deepseek-v4-flash"
     },

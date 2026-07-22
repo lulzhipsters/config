@@ -1,6 +1,6 @@
 ---
 description: Reviews and performs QA duties on code
-mode: both
+mode: all
 temperature: 0.5
 permission:
   edit: deny

@@ -1,4 +1,6 @@
 prSections:
+  - title: Ready
+    filters: is:open draft:false
   - title: My Pull Requests
     filters: is:open author:@me
   - title: Needs My Review
@@ -87,8 +89,13 @@ keybindings:
     - key: O
       name: Review in tuicr
       command: "tuicr pr {{.PrNumber}}"
+    - key: M
+      name: Set auto-merge
+      command: "gh pr merge {{.PrNumber}} --auto"
 
-repoPaths: {}
+repoPaths: {
+  textclub/textclub: "~/repos/textclub-bare/default"
+}
 theme:
   ui:
     sectionsShowCount: true

@@ -2,31 +2,31 @@
   "$schema": "https://opencode.ai/config.json",
   "plugin": ["@dietrichgebert/ponytail"],
 
-  "model": "anthropic/claude-opus-4-6",
-  "agent": {
-    "build": {
-      "model":  "deepseek/deepseek-v4-pro"
-    },
-    "plan": {
-      "model": "deepseek/deepseek-v4-pro"
-    },
-    "QA": {
-      "model": "deepseek/deepseek-v4-pro"
-    },
-    "general": {
-      "model": "deepseek/deepseek-v4-flash"
-    },
-    "explore": {
-      "model": "deepseek/deepseek-v4-flash"
-    },
-    "compaction": {
-      "model": "deepseek/deepseek-v4-flash"
-    },
-    "title": {
-      "model": "deepseek/deepseek-v4-flash"
-    },
-    "summary": {
-      "model": "deepseek/deepseek-v4-flash"
-    }
-  }
+  "model": "openrouter/~z-ai/glm-flash-latest"
+  // "agent": {
+  //   "build": {
+  //     "model": "deepseek/deepseek-v4-pro"
+  //   },
+  //   "plan": {
+  //     "model": "deepseek/deepseek-v4-pro"
+  //   },
+  //   "QA": {
+  //     "model": "deepseek/deepseek-v4-pro"
+  //   },
+  //   "general": {
+  //     "model": "deepseek/deepseek-v4-flash"
+  //   },
+  //   "explore": {
+  //     "model": "deepseek/deepseek-v4-flash"
+  //   },
+  //   "compaction": {
+  //     "model": "deepseek/deepseek-v4-flash"
+  //   },
+  //   "title": {
+  //     "model": "deepseek/deepseek-v4-flash"
+  //   },
+  //   "summary": {
+  //     "model": "deepseek/deepseek-v4-flash"
+  //   }
+  // }
 }

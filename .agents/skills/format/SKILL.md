@@ -29,6 +29,7 @@ Have code be as easily scannable and understandable as possible. Ideally it shou
 
 - Consider whether constants or variables can be moved and grouped by purpose / naming.
 - Consider whether destructuring of objects may be more/less readable vs repeated assignment or access.
+- Look for redundant terms in call chains, eg `profitPool.poolBalance` could just be `profitPool.balance`.
 - Look for long lines that are wrapped by the formatter that could instead become multiple clearer lines.
 - Look for properties that are not logically or alphabetically sorted. Consider sorting, depending on the impact.
 - Consider replacing nested `if/else` or long chained ternaries with `switch` statements or named variable assignments.
